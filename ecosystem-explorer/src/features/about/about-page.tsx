@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { BookOpen, Bug, MessageSquare } from "lucide-react";
-import { GithubIcon } from "@/components/icons/github-icon";
+import { GitHubIcon } from "@/components/icons/github-icon";
 
 const REPO_URL = "https://github.com/open-telemetry/opentelemetry-ecosystem-explorer";
 
@@ -63,7 +63,7 @@ export function AboutPage() {
             rel="noopener noreferrer"
             className="flex items-start gap-4 rounded-lg border border-border/50 bg-card/50 p-5 hover:bg-card transition-colors"
           >
-            <GithubIcon className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary" aria-hidden="true" />
+            <GitHubIcon className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary" aria-hidden="true" />
             <div className="space-y-1">
               <h3 className="text-sm font-medium text-foreground">Source Code</h3>
               <p className="text-xs text-muted-foreground">

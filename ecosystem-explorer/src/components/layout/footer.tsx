@@ -15,7 +15,7 @@
  */
 import { Map } from "lucide-react";
 import { Link } from "react-router-dom";
-import { GithubIcon } from "@/components/icons/github-icon";
+import { GitHubIcon } from "@/components/icons/github-icon";
 import { OtelLogo } from "@/components/icons/otel-logo";
 
 export function Footer() {
@@ -42,7 +42,7 @@ export function Footer() {
               className="hover:text-foreground transition-colors flex items-center gap-1"
               aria-label="GitHub repository"
             >
-              <GithubIcon className="h-4 w-4" aria-hidden="true" />
+              <GitHubIcon className="h-4 w-4" aria-hidden="true" />
               GitHub
             </a>
             <a
